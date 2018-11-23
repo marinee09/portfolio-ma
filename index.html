@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Marine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/lib/w3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <ul class="w3-navbar w3-card-2 w3-animate-top w3-white" id="myNavbar">
+            <li><a href="#" class="w3-padding-large"><i class="fas fa-om "></i>  Marine Gontard</a></li>
+            <li class="w3-hide-small w3-right">
+                <a href="#contact" class="w3-padding-large">Contact</a>
+            </li>
+            <li class="w3-hide-small w3-right">
+                <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+            </li>
+            <li class="w3-hide-small w3-right">
+                <a href="#about" class="w3-padding-large">En savoir +</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container">
+        <!-- <div class="w3-display-middle" style="white-space:nowrap;"> -->
+            <!-- <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">Developpeuse junior
+                <span class="w3-hide-small">Front-end</span></h1> -->
+            <div class="main">
+                <h1 class="main-heading">
+                    <span class="main-heading-primary">Developpeuse</span>
+                    <span class="main-heading-secondary">junior front-end</span><br>
+                </h1>
+            </div>
+            <a href="#work"><button class="w3-center btn-hover color-7">Mes projets</button></a>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <section id="about">
+        <div class="w3-content w3-container w3-padding-64" id="about">
+            <h2 class="w3-center">En savoir +</h2>
+            <p class="w3-center"><em>Passionnée d'informatique</em></p>
+            <!--  Profile Picture and Description  -->
+            <div class="w3-row">
+                <div class="w3-col m6 w3-center w3-section">
+                    <img src="marine2.jpg" id="profile" class="w3-circle" alt="Photo of Me">
+                </div>
+                <!-- Hide this text on small devices -->
+                <div class="w3-col m6 w3-section w3-center-content" id="text">
+                    <p>Diplomée d'un BEP secrétariat comptabilité, j'ai travaillée dans différentes entreprises notamment Flexitech (Opératrice sur commande numérique) pendant 7ans</p>
+                    <p>Actuellement en reconversion professionnelle, je suis une formation intensive de développement web fullstack (7 mois à Simplon Roanne)</p>
+                    <p>Le côté Front-end du métier m'attire beaucoup. J'adore m'occuper de l'intégration de site web,
+                        le développement HTML, CSS, Javascript ainsi que tout ce qui se réfère au design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <section id="portfolio">
+        <div class="bgimg-2 w3-display-container">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text w3-wide">PORTFOLIO</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Container (Portfolio Section) -->
+    <section id="work">
+        <div class="w3-container w3-padding-64">
+            <h2 class="w3-center">Mes projets</h2>
+            <p class="w3-center"><em>Voici quelques projets réalisés à Simplon.</em><br> <span>Cliquez sur l'image pour accéder à
+                    la page web</span></p>
+
+            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="row center">
+            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col s12 m4 l4">
+                            Exchange<br><br>
+                            <a href="http://exchange.simplon-roanne.com/" target="_blank"><img src="exchange.png" style="width:100%" class="w3-hover-opacity" id="exchange"></a><br><br>
+                        </div>
+                        <div class="col s12 m4 l4">
+                            Luxury</a><br><br>
+                            <a href="http://tifarine.luxuryservice.tp.simplon-roanne.com/" target="_blank"><img src="luxury.png" style="width:100%" class="w3-hover-opacity" id="luxury"></a><br><br>
+                        </div>
+                        <div class="col s12 m4 l4">
+                                Product'hunt<br><br>
+                                <a href="http://projets.simplon-roanne.com/Projet-1-AM/index.php" target="_blank"><img src="projet1.png" style="width:100%" class="w3-hover-opacity" id="projet1"></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="row center">
+                <div class="col s12 m4 l4">
+                Tictactoe<br><br>
+                <a href="https://marinee09.gitlab.io/tic-tac-toe/" target="_blank"><img src="tictac.png" style="width:100%" class="w3-hover-opacity" id="morpion"></a> 
+                </div>
+                <div class="col s12 m4 l4">
+                    Cagnot'potes<br><br>
+                    <a href="https://gontard-marine.cagnotpotes.tp.simplon-roanne.com/"
+                    target="_blank"><img src="cagnot.png" style="width:100%"  class="w3-hover-opacity" id="cagnot"></a><br>
+                </div>
+                <div class="col s12 m4 l4">
+                        Gitlab<br><br>
+                     <a href="http://tifarine.luxuryservice.tp.simplon-roanne.com/" target="_blank"><img src="gitlab.png" style="width:100%" class="w3-hover-opacity" id="gitlab"></a><br><br>
+                    </div>
+ 
+            </div>     
+        </div>
+    </section>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container" id="contact">
+        <div class="w3-display-middle">
+            <h2 class="w3-xxlarge w3-text-light-grey w3-wide">CONTACT</h2>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-container-fluid">
+    <!-- Add Google Maps -->
+    <address class="w3-row w3-padding-32 w3-section gold">
+            <div class="w3-col m5 w3-container">
+                <div id="mandala" class="w3-round-large">
+                    <img src="https://media.giphy.com/media/3o6ZsZfk5ogLgPDSqA/giphy.gif">
+                    <!-- <img src="https://66.media.tumblr.com/e33e509f69ff5c1c465e66d785338a8a/tumblr_nyeo2xSl9V1rgluzto1_400.gif"> -->
+                </div>
+            </div>
+            <div class="w3-col m6 w3-container w3-section" id="cont">
+                <div class="w3-large w3-margin-bottom mail">
+                    <i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i>42110 Salt-en-Donzy
+                    (France)<br>
+                    <i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: 06-21-42-15-18<br>
+                    <i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email:
+                    marinee09@hotmail.fr<br>
+                </div>
+                <p class="w3-center">Me laisser un mot</p>
+                <div class="w3-row-padding mail" style="margin:0 -16px 8px -16px">
+                    <div class="w3-half">
+                        <input class="w3-input w3-border w3-hover-light-blue mail" type="text" placeholder="Votre nom">
+                    </div>
+                    <div class="w3-half">
+                        <input class="w3-input w3-border w3-hover-light-blue mail" type="text" placeholder="Email">
+                    </div>
+                </div>
+                <input class="w3-input w3-border w3-hover-light-blue mail" type="text" placeholder="Commentaires"><br>
+                <a href="mailto:marinee09@hotmail.fr" class="w3-center btn-hover color-7" id="send">Envoyer</a>
+            </div>
+        </address>
+        </div>
+        <!-- <button id="bouton">Haut de la page</button>
+        <script>
+        // Remonter en haut de la page
+        $(function(){
+            $("#bouton").click(function(){
+                $("html, body").animate({scrollTop: 0},"slow");
+            });
+        });
+    </script> -->
+    <!-- Footer -->
+    <footer class="w3-center w3-grey w3-hover-black cf"><br>
+        <!-- <div class="w3-half"> -->
+        <div class="row">
+            <div class="col s6 m6 l6 left">
+                <a target="_blank" href="https://www.linkedin.com/in/marine-gontard-21607860">
+                    <i class="fab fa-linkedin-in fa-2x"></i>
+                </a>
+                <a target="_blank" href="http://www.doyoubuzz.com/marine-gd">
+                    <i class="fas fa-user fa-2x"></i>
+                    </a>
+                <a target="_blank" href="https://www.facebook.com/mgontard2">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+            </div>         
+            <div class="col s6 m6 l6 right">      
+                <p class="w3-half">Made with <span class="heart-icon">❤</span> by Marine Gontard</p>
+            </div> 
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

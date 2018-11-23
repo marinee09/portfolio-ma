@@ -1,0 +1,496 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #B38728;
+    line-height: 1.8;
+}
+
+/*Navbar Styles*/
+.w3-navbar { color: #fff;}
+.w3-navbar.w3-animate-top { color: #C6D2DE;}
+.w3-navbar li a {
+    transition: 0.4s;
+}
+.w3-navbar li a:hover { 
+    background-color: transparent; 
+    color: black;
+    font-size: 18px !important; 
+}
+.w3-white {
+    background-image: linear-gradient(to right,#BF953F 0%,#FCF6BA 51%,#B38728 100%);
+    color: white !important;
+    opacity: 0.6;
+}
+#myNavbar {
+    font-size: 16px;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('background.jpg');
+    min-height: 100%;
+}
+#work, p {
+    font-size: 20px;
+}
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://classroomscreen.com/achtergrond/gif5.gif");
+    opacity: 1; 
+    min-height: 400px;
+    max-width: 100%;
+    color: white;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url('https://i.pinimg.com/originals/2a/c8/d1/2ac8d1b164506e0cb975c692d49c321d.jpg');
+    /* background-image: url("https://i.pinimg.com/originals/11/fb/9f/11fb9f12acfc005e28053b906b51d8a5.jpg"); */
+    text-shadow: black 7px 0 10px;    
+    min-height: 400px;
+    opacity: 0.9;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity:hover {
+    cursor: pointer;
+    width: 400px !important;
+}
+
+/* Bouton gradient */
+.btn-hover {
+    font-family: Roboto, sans-serif;
+    width: 200px !important;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    height: 150% !important;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: black;
+    font-weight: bold;
+
+}
+
+.btn-hover:focus {
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right,#BF953F 0%,#FCF6BA 51%,#B38728 100%);
+    /* Button color blue pink */
+    /* background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645); */
+    box-shadow: 0 4px 15px 0 rgba(42, 19, 53, 0.75);
+    padding: 2%;
+    margin-top: 35%;
+    margin-left: 40%;
+}   
+
+
+#profile { 
+    vertical-align: middle; 
+    width: 60%; 
+}
+#portfolio {
+    color: black !important;
+    text-shadow: white 3px 0 10px !important;    
+}
+
+a {
+    text-decoration: none;
+}
+
+#projet1, #morpion, #cagnot, #exchange, #luxury, #gitlab {
+    border-radius: 20px;
+    min-width: 15%;
+    height: auto;
+    min-height: 200px !important;
+
+}
+#projet1, #morpion, #cagnot, #exchange, #luxury, #gitlab:hover {
+    min-width:25%;
+}
+.btncolor {
+    min-width: 15% !important;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 3%;
+    text-shadow: black 7px 0 10px !important;   
+    margin-left: 7%; 
+}
+.btnA {
+    margin-right: 55%;
+    min-width: 15% !important;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 3%;
+    text-shadow: black 1px 0 10px !important;    
+    display: inline;
+
+}
+
+.row, .left {
+    padding-top: 2% !important;
+}
+
+
+
+@keyframes color {
+    0%   { background-color: #34383B; }
+    25%  { background-color: lightslategray; }
+    50%  { background-color: gray; }
+    75%  { background-color: lightblue; }
+    100% { background-color: gray; }
+    }
+
+    #work {
+        animation-name: color;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        color: white;
+        text-shadow: black 7px 0 10px;   
+    }
+#mandala, img{
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+        /* opacity: 0.9; */
+}
+h2.w3-center {
+    color: black;
+    text-shadow: none;
+
+}
+.address, .gold  {
+    background-image: url('http://wallpapercave.com/wp/TREcQCG.jpg');
+    height: auto;
+    padding: 3%;
+    margin-top: -10px !important;
+    padding-top: 10% !important;
+    color: black;
+    font-weight: bold;
+    text-shadow: white 3px 5px 15px;
+    margin-bottom: -5% !important;
+    padding-bottom: 12% !important;
+}
+i.fab {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+/*  */
+/*  */
+/* Animate h1 header */
+.main {
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    /* 1er texte haut */
+.main-heading {
+color: black;
+text-transform: uppercase;
+}
+
+
+.main-heading-primary {
+    display: block;
+    font-size: 5.0rem;
+    font-weight: 400;
+    letter-spacing: 30px;
+    animation: moveInLeft 4s linear infinite alternate;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-shadow: white 2px 0 10px;    
+}
+
+  /* 2eme texte bas  */
+.main-heading-secondary {
+    font-family: sans-serif;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 26px;
+    /* color: hotpink; */
+    color: white;
+    animation: moveInRight 4s linear infinite alternate;
+    text-shadow: rgb(223, 130, 223) 3px 0 10px;    
+
+}
+
+@keyframes moveInLeft {
+    0% {
+    opacity: 0;
+    transform: translateX(-100px);
+    }
+    
+    80% {
+    transform: translateX(10px);
+    }
+    
+    100% {
+    opacity: 1;
+    transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+    opacity: 0;
+    transform: translateX(100px);
+    }
+    
+    80% {
+    transform: translateX(-10px);
+    }
+    
+    100% {
+    opacity: 1;
+    transform: translate(0);
+    }
+}
+
+/* FIN */
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+/* About Section */
+#about {
+font-size: 1.4em;
+}
+
+/* Heart Icon */
+.heart-icon {
+color: #f77;
+}
+
+
+/* Clearfix Hack */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* Social Media Icons */
+.w3-half > a {
+    text-decoration: none;
+}
+.w3-half > p{
+    float: right;
+    padding-left: 10%;
+}
+
+/* Bouton icon */
+i.fa {
+padding-top: .2em;
+padding-left: .5em;
+padding-right: .5em;
+taransition: color 1s;
+}
+
+.fa-linkedin-in:hover {
+color: rgb(79, 197, 236);
+}
+
+.fa-facebook-f:hover {
+color: #04a;
+}
+
+.fa-user:hover {
+color: orange;
+}
+
+#profile { 
+    vertical-align: middle; 
+    height: auto;
+    margin-top: 12%;
+}
+
+
+
+/* Responsive Mobile */
+@media (max-width: 640px) {
+    /* CSS mobile ici */
+    .btn-hover.color-7 {
+        background-image: linear-gradient(to right,#BF953F 0%,#FCF6BA 51%,#B38728 100%);
+        /* Button color blue pink */
+        /* background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645); */
+        box-shadow: 0 4px 15px 0 rgba(42, 19, 53, 0.75);
+        padding: 2%;
+        margin-top: 90%;
+        margin-left: 30%;
+        border-radius: 50px !important;
+    }
+    #send {
+        text-align: center;
+    }
+#text {
+    margin: 3%;
+    font-size: 5px;
+}
+.btnA {
+    font-size: 15px;
+    padding: 5% !important;
+    margin-left: 35% !important;
+}
+#profile { 
+    vertical-align: middle; 
+    width: 40%; 
+    height: auto;
+    margin-top: -3%;
+}
+
+footer.w3-center, p {
+    margin-top: -1% !important;
+    font-size: 14px;
+    text-shadow: none;
+}
+
+    /* Texte animate Téléphone*/
+    /* Animate h1 header */
+.main {
+    position: absolute;
+        top: 40%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+    
+        /* 1er texte haut */
+    .main-heading {
+    color: black;
+    text-transform: uppercase;
+    }
+    
+    
+    .main-heading-primary {
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 400;
+        letter-spacing: 10px;
+        animation: moveInLeft 3s ease-out;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-shadow: white 2px 0 10px;    
+    }
+    
+      /* 2eme texte bas  */
+    .main-heading-secondary {
+        font-family: sans-serif;
+        display: block;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 10px;
+        /* color: hotpink; */
+        color: white;
+        animation: moveInRight 3s ease-out;
+        text-shadow: plum 2px 0 10px;    
+    }
+    
+    @keyframes moveInLeft {
+        0% {
+        opacity: 0;
+        transform: translateX(-100px);
+        }
+        
+        80% {
+        transform: translateX(10px);
+        }
+        
+        100% {
+        opacity: 1;
+        transform: translate(0);
+        }
+    }
+    
+    @keyframes moveInRight {
+        0% {
+        opacity: 0;
+        transform: translateX(100px);
+        }
+        
+        80% {
+        transform: translateX(-10px);
+        }
+        
+        100% {
+        opacity: 1;
+        transform: translate(0);
+        }
+    }
+    /* FIN */
+    #projet1, #morpion, #cagnot, #exchange, #luxury {
+        border-radius: 20px;
+        min-width: 15%;
+        height: auto;
+        cursor: pointer;
+        padding: 3%;
+    }
+    p.w3-center {
+        font-size: 15px;
+        padding-top: -10%;
+    }
+
+    .mail {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .row, .left {
+        margin-top: 2% !important;
+    }
+  
+
+
+    }
